@@ -1,0 +1,154 @@
+.container
+{
+    display: flex;
+    margin-top: 7%;
+    margin-left: 20%;
+}
+
+.picture{
+    margin-right: 30px;
+    width: 500px;
+}
+
+.form
+{
+    border-left:  solid 1px rgb(243, 156, 243);
+    padding: 60px;
+    margin-left: 50px;
+    margin-top: 1px;
+    height: 650px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#click{
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 97%;
+    height: 45px;
+    
+}
+
+.form input{
+    width: 96%;
+    border: solid 1px black;
+    opacity: 30%;
+    border-radius: 5px;
+    height: 40px; 
+   
+
+}
+
+#lname{
+    width: 43%;
+    margin-left: 1cm;
+
+}
+
+#fname{
+    width: 43%;
+
+}
+
+#last{
+    margin-left: 4.8cm;
+}
+
+body{
+    display: flex;
+    background-color: rgb(241, 221, 241);
+
+}
+
+h2{
+    font-size: xx-large;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: purple;
+}
+
+#account{
+    text-align: center;
+    
+}
+
+
+a{
+    color: blueviolet;
+    text-decoration: none;  
+    font-weight: 700; 
+}
+
+h3{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+h3:before,
+h3:after 
+{
+content:"";
+flex: 1 1;
+border-bottom: solid 1px;
+margin: auto;
+opacity: 30%;
+}
+
+.logos{
+    text-align: center;
+    padding: 10px;
+    margin-top: -50px;    
+}
+
+#facebook{
+    width: 80px;
+    height: 1cm;
+    background-color: beige;
+    border-radius: 10px;
+    opacity: 70%;
+}
+
+#apple{
+    width: 80px;
+    height: 1cm;
+    background-color: beige;
+    border-radius: 10px;
+    opacity: 70%;
+    text-align: left;
+    margin-left: 20px;
+
+    
+}
+
+#google{
+    width: 80px;
+    height: 1cm;
+    background-color: beige;
+    border-radius: 10px;
+    opacity: 70%;
+    margin-right: 20px;
+}
+#first{
+    position: absolute;
+    right: 360px;
+    top: 570px;
+
+}
+#second{
+    position: absolute;
+    right: 360px;
+    top: 669px
+     
+
+}
+
+
+
